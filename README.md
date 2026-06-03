@@ -2,14 +2,14 @@
 
 A production-ready Python data pipeline designed to ingest real-time asset market data, execute rolling statistical modeling, and structure real-time analytics registries.
 
-## 🛠️ Core Architecture & Engineering Features
+##  Core Architecture & Engineering Features
 
 * **Object-Oriented Pipeline:** Built using modular class structures (`MarketIntelligenceEngine`) ensuring scalable API routing and data state integrity.
 * **Statistical Anomaly Detection:** Implements dynamically calculated Z-Scores based on rolling market variance and standard deviation to flag price fluctuations exceeding $|1.5|$ thresholds.
 * **Data Efficiency Logic:** Computes volume-to-market-cap efficiency coefficients to gauge liquid velocity across continuous asset datasets.
 * **Clean Data Engineering:** Leverages vectorized Pandas transformations for rapid execution without standard loops, bypassing typical bottlenecks.
 
-## 💻 Technical Stack & Implementation
+##  Technical Stack & Implementation
 
 * **Language:** Python 3.x
 * **Core Libraries:** Pandas, NumPy, Requests, IPython
@@ -17,11 +17,11 @@ A production-ready Python data pipeline designed to ingest real-time asset marke
 
 ---
 
-## 📊 Live Production Registry Output
+##  Live Production Registry Output
 
 When executed within the runtime pipeline, the engine analyzes live crypto/fiat vectors and structures the data stream into a dynamically styled analytics registry:
 
-### 📈 Sample Dataset Snapshot (Live Ingestion Pipeline)
+###  Sample Dataset Snapshot (Live Ingestion Pipeline)
 
 | # | Asset Name | Current Price | Market Cap | 24h Price Change | Price Z-Score | Volume/Mcap Efficiency |
 |---|------------|---------------|------------|------------------|---------------|------------------------|
@@ -35,7 +35,7 @@ When executed within the runtime pipeline, the engine analyzes live crypto/fiat 
 
 ---
 
-## 🚀 How To Run Locally
+##  How To Run Locally
 
 Clone the repository and install dependencies:
 ```bash
